@@ -2,29 +2,27 @@
 
 
 
-
-
-****BÁSICOS
-	Version.........................git version
-	Name............................git config --global user.name"david"
-	Correo..........................git config --global user.email david@gmail.com
-	Editor x defecto................git config --global core.editor notepad.exe	
-	Comprobando la config...........git config --list
+****BÁSICOS****
+	Version				git version
+	Name				git config --global user.name"david"
+	Correo				git config --global user.email david@gmail.com
+	Editor x defecto		git config --global core.editor notepad.exe	
+	Comprobando la config		git config --list
 
 				
-****POSICIONARSE EN LA CARPETA
-	Inicio		git init
-	Clona		git clone "wwww.c.com"
-	Estado		git status
-	Revisar		git commit -m 'aqui va el texto'
-	Up		git push -u origin master
+****POSICIONARSE EN LA CARPETA****
+	Inicio				git init
+	Clona				git clone "wwww.c.com"
+	Estado				git status
+	Revisar				git commit -m 'aqui va el texto'
+	Up				git push -u origin master
 
 
-****QUIERO VER LA INFO
-	Información	git log -p -2
-			git log -- stat
-			git log -- pretty = format "%h %s" -- grapa
-	Block de notas	git commit -- amend
+****QUIERO VER LA INFO****
+	Información			git log -p -2
+					git log -- stat
+					git log -- pretty = format "%h %s" -- grapa
+	Block de notas			git commit -- amend
 	
 
 
