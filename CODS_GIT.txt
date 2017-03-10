@@ -2,7 +2,7 @@
 
 
 
-****BÁSICOS****
+*******BÁSICOS*******
 	Version				git version
 	Name				git config --global user.name"david"
 	Correo				git config --global user.email david@gmail.com
@@ -10,7 +10,7 @@
 	Comprobando la config		git config --list
 
 				
-****POSICIONARSE EN LA CARPETA****
+*******POSICIONARSE EN LA CARPETA*******
 	Inicio				git init
 	Clona				git clone "wwww.c.com"
 	Estado				git status
@@ -18,7 +18,7 @@
 	Up				git push -u origin master
 
 
-****QUIERO VER LA INFO****
+*******QUIERO VER LA INFO*******
 	Información			git log -p -2
 					git log -- stat
 					git log -- pretty = format "%h %s" -- grapa
