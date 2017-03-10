@@ -9,11 +9,13 @@
 	Editor x defecto		git config --global core.editor notepad.exe	
 	Comprobando la config		git config --list
 
+	Ver info user			git config --global --list
+
 				
 *******POSICIONARSE EN LA CARPETA*******
 	Inicio				git init
 	Clona				git clone "wwww.c.com"
-	Estado				git status
+	Estado				git status				git status -a
 	Revisar				git commit -m 'aqui va el texto'
 	Up				git push -u origin master
 
